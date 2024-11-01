@@ -1,0 +1,76 @@
+/**
+ * Theme - 8
+ *
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
+.sliderxwoo-slider.theme-8 .slider-content-item {
+    position: relative;
+}
+
+.sliderxwoo-slider.theme-8 .slider-item-content > * {
+    transform: translateY(10px);
+    transition: transform 1s;
+}
+
+.sliderxwoo-slider.theme-8.slider-item-content:hover > * {
+    transform: translateY(0px);
+}
+
+.sliderxwoo-slider.theme-8 .slider-item-content-blur {
+    backdrop-filter: blur(3px);
+}
+
+.sliderxwoo-slider.theme-8 .slider-item-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s;
+    box-sizing: border-box;
+}
+
+.sliderxwoo-slider.theme-8 .slider-item-content:hover {
+    opacity: 1;
+}
+
+.sliderxwoo-slider.theme-8 .slick-list .slider-item .thumbnail {
+    margin-bottom: 0;
+}
+
+.sliderxwoo-slider.theme-8 .slick-list .slider-item .thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+.sliderxwoo-slider.theme-8 .slick-list .slider-item h4.title {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.sliderxwoo-slider.theme-8 .slick-list .slider-item .price {
+    margin-bottom: 3px;
+}
+
+.sliderxwoo-slider.theme-8 .slider-item .rating {
+    margin: 0 auto 10px;
+}
+
+.sliderxwoo-slider.theme-8 .slider-item .add-to-cart > a {
+    background: rgba(74, 74, 74, 0.01);
+    color: #fff;
+    border: 1px solid #276897;
+}
+
+.sliderxwoo-slider.theme-8 .slider-item .add-to-cart > a:hover {
+    background: #276897;
+}

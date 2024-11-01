@@ -1,0 +1,65 @@
+/**
+ * Theme - 10
+ *
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
+.sliderxwoo-slider.theme-10 .thumbnail {
+    position: relative;
+}
+
+.sliderxwoo-slider.theme-10 .thumbnail:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99ff 100%);
+}
+
+.sliderxwoo-slider.theme-10 .slider-item:hover .thumbnail:before {
+    opacity: 1;
+}
+
+.sliderxwoo-slider.theme-10 .slider-item {
+    position: relative;
+}
+
+.sliderxwoo-slider.theme-10 .slider-item-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    opacity: 0;
+    z-index: 1;
+    transition: .3s;
+}
+
+.sliderxwoo-slider.theme-10 .slider-item:hover .slider-item-wrapper {
+    opacity: 1;
+    top: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.sliderxwoo-slider.theme-10 .add-to-cart {
+    position: absolute;
+    width: 100%;
+    bottom: -15px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.sliderxwoo-slider.theme-10 .slider-item:hover .add-to-cart {
+    opacity: 1;
+    bottom: 27px;
+    z-index: 5;
+    transition: 0.3s;
+}
+
+.sliderxwoo-slider.theme-10 .slider-item .slider-item-wrapper, h4.title, .price {
+    color: #fff;
+}

@@ -1,0 +1,37 @@
+/**
+ * Theme - 9
+ *
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
+.sliderxwoo-slider.theme-9 .slider-item .thumbnail {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.sliderxwoo-slider.theme-9 .slider-item .add-to-cart {
+    position: absolute;
+    transition: opacity 0.5s;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sliderxwoo-slider.theme-9 .slider-item:hover .add-to-cart {
+    z-index: 666;
+    visibility: visible;
+    opacity: 1;
+    top: 53%;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+
+.sliderxwoo-slider.theme-9 .slider-item .item-content-wrapper {
+    padding: 15px 0;
+    background: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
+}
+
+.sliderxwoo-slider.theme-9 .sliderxwoo-slider .slider-item .rating {
+    margin: 0 auto 7px;
+}

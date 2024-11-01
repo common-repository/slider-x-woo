@@ -1,0 +1,58 @@
+/**
+ * Theme - 4
+ *
+ *@version 1.0.0
+ *@since 1.0.0
+ */
+
+.sliderxwoo-slider.theme-4 .slider-single-item .thumbnail {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.sliderxwoo-slider.theme-4 .slider-single-item .thumbnail:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition: .3s;
+}
+
+.sliderxwoo-slider.theme-4 .slider-single-item:hover .thumbnail:before {
+    opacity: .6;
+}
+
+.sliderxwoo-slider.theme-4 .slider-single-item .slider-content-wrapper {
+    padding: 10px 0;
+}
+
+.sliderxwoo-slider.theme-4 .slider-single-item:hover .slider-content-wrapper {
+    background: #f1f1f1;
+}
+
+.sliderxwoo-slider.theme-4 .slider-item .add-to-cart {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+
+.sliderxwoo-slider.theme-4 .slider-single-item:hover .add-to-cart {
+    top: 50%;
+    opacity: 1;
+}
+
+.sliderxwoo-slider.theme-4 .slider-item .add-to-cart > a {
+    color: #4a4a4a;
+    background: #fff;
+}
+
+.sliderxwoo-slider.theme-4 .slider-item .add-to-cart > a.added_to_cart {
+    margin-top: 10px;
+}

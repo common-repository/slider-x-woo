@@ -1,0 +1,58 @@
+/**
+ * Theme - 3
+ *
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
+.sliderxwoo-slider.theme-3 .slider-single-item {
+    position: relative;
+}
+
+.sliderxwoo-slider.theme-3 .item-content-wrapper {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(10, 10, 10, 0.50);
+    transition: .3s;
+}
+
+.sliderxwoo-slider.theme-3 .slider-single-item:hover .item-content-wrapper {
+    bottom: 0;
+    opacity: 1;
+    z-index: 999;
+    color: #fff !important;
+}
+
+.sliderxwoo-slider.theme-3 .slider-single-item:before {
+    content: ' ';
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: #00000029;
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.sliderxwoo-slider.theme-3 .slider-single-item:hover:before {
+    opacity: 1;
+}
+
+.sliderxwoo-slider.theme-3 .slider-item h4.title {
+    color: #fff;
+}
+
+.sliderxwoo-slider.theme-3 .slider-item .add-to-cart > a {
+    color: #4a4a4a;
+    background: #fff;
+}

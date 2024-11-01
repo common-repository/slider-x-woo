@@ -1,0 +1,52 @@
+/**
+ * Theme - 2
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
+.sliderxwoo-slider.theme-2 .slider-single-item {
+    position: relative;
+}
+
+.sliderxwoo-slider.theme-2 .item-content-wrapper {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(10, 10, 10, 0.50);
+    transition: .4s;
+}
+
+.sliderxwoo-slider.theme-2 .slider-single-item:hover .item-content-wrapper {
+    bottom: 7px;
+    opacity: 1;
+    z-index: 999;
+    color: #fff !important;
+}
+
+.sliderxwoo-slider.theme-2 .slider-single-item:hover:before {
+    opacity: 1;
+}
+
+.sliderxwoo-slider.theme-2 .slick-list .slider-item .thumbnail {
+    margin-bottom: 0;
+
+}
+
+.sliderxwoo-slider.theme-2 .slider-item .thumbnail img {
+    vertical-align: 0;
+}
+
+.sliderxwoo-slider.theme-2 .slider-item h4.title {
+    color: #fff;
+}
+
+.sliderxwoo-slider.theme-2 .slider-item .add-to-cart > a {
+    color: #4a4a4a;
+    background: #fff;
+}

@@ -1,0 +1,81 @@
+/**
+ * Theme - 5
+ */
+
+.sliderxwoo-slider.theme-5 .single-slider-item {
+    padding-bottom: 70px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.sliderxwoo-slider.theme-5 .slider-img {
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.sliderxwoo-slider.theme-5 .slider-img {
+    width: 100%;
+    transition: .6s;
+}
+
+.sliderxwoo-slider.theme-5 .single-slider-item:hover .slider-img {
+    transform: scale(1.1);
+}
+
+.sliderxwoo-slider.theme-5 .slider-content {
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    bottom: 0;
+    transition: all .6s;
+    background: #fff;
+    z-index: 999;
+}
+
+.sliderxwoo-slider.theme-5 .single-slider-item:hover .slider-content {
+    height: 170px;
+    background: #fafafa;
+}
+
+.sliderxwoo-slider.theme-5 .slider-content .slider-info {
+    transition: all .6s;
+}
+
+.sliderxwoo-slider.theme-5 .slick-list .slider-item .thumbnail {
+    margin-bottom: 0;
+}
+
+.sliderxwoo-slider.theme-5 .slick-list .slider-item h4.title {
+    margin-top: 10px;
+}
+
+.sliderxwoo-slider.theme-5 .slick-list .slider-item .price {
+    margin-bottom: 10px;
+}
+
+.sliderxwoo-slider.theme-5 .slick-list .slider-item .rating {
+    margin-bottom: 15px;
+}
+
+.sliderxwoo-slider.theme-5 .slick-list .slider-item .add-to-cart > a {
+    display: inline-block;
+    text-decoration: none;
+    background: #fff;
+    padding: 10px 16px;
+    transition: 0.3s;
+    margin-right: 5px;
+    width: auto;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 3px;
+    border: 1px solid #fca055;
+    color: #000;
+}
+
+.sliderxwoo-slider.theme-5 .slick-list .slider-item .add-to-cart > a:hover {
+    background: #fca055;
+}
